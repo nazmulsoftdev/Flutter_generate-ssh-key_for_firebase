@@ -1,0 +1,16 @@
+
+
+// when you will create a firebase projec 
+
+// they will ask you for SHA key
+
+// just give your pc c drive name after C:\Users\=>name\.
+
+// then past it in CMD
+
+// hopefully you will get a SHA key
+
+// SHA1 ED:18:46:28:F1:24:54:5E:F2:F2:52:DD:1E:D4:F4:A9:D9:DF:32:49  (<= it will be Like this)
+
+
+keytool -list -v -keystore C:\Users\hp\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
